@@ -21,8 +21,6 @@ public class First_and_Last_Position {
 
         while(end > start){
 
-//            int mid = start + (end - start)/2;
-
             int mid = start + (end - start)/2;
             if(target < nums[mid]){
                 end = mid-1;
